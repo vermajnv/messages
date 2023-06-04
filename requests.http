@@ -1,0 +1,16 @@
+#  Get All messages
+
+GET http://localhost:3000/messages
+
+### Store messages
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+    "content" : "This is first content"
+}
+
+### Get Specific message 
+GET http://localhost:3000/messages/7189
+
